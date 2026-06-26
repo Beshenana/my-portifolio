@@ -1,0 +1,25 @@
+body{
+background-color: red; 
+color: white;   
+}
+.rect-wrapper{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+.recta-wrapper{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+
+@media(min-width:541px){
+    body{
+        background-color: purple;
+
+    }
+    .both-wrapper{
+        display: flex;
+    }
+}
+
